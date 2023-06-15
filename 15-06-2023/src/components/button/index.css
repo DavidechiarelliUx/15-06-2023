@@ -1,0 +1,20 @@
+.Button {
+border: 0;
+background-color: lightblue;
+border-radius: 12px;
+width: 120px;
+height: 50px;
+cursor: pointer;
+border: 0;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+color: white;
+transition: 0.35s;
+}
+
+.completedBtn {
+background-color: green;
+}
+
+.deleteBtn{
+background-color: red;
+}

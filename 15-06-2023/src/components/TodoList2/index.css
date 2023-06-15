@@ -1,0 +1,40 @@
+.TodoList2 {
+    border: 2px solid gray;
+    padding: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+
+  }
+  .TodoList2 li {
+    list-style: none;
+  }
+  
+  .TodoList2 .Filter__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .TodoList2 .Filter__header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .TodoList2 .Filter__header p {
+    margin: 0;
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .TodoList2 .Filter__filters {
+    margin-bottom: 10px;
+  }
+  
+  .TodoList2 .Filter__filters button {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .TodoList2 .Filter__todos {
+    margin-top: 10px;
+  }

@@ -1,0 +1,84 @@
+.Todo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Todo h3 {
+  margin-top: 10;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.Todo p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+.Todo__content{
+  display: flex;
+  align-items: center;
+}
+
+.Todo__actions {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.Todo__button--complete {
+  padding: 8px 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.Todo__button--delete {
+  padding: 8px 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.Todo__button:hover {
+  background-color: #f5f5f5;
+  color: #666;
+}
+
+/* Completed */
+.true{
+  background-color: lightgreen;
+}
+
+.false{
+  background-color: lightcoral;
+}
+
+.Todo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 15px;
+  margin-right: 20px;
+}
